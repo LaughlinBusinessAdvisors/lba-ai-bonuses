@@ -52,7 +52,7 @@ Show a progress bar as questions are answered, like `▓▓▓▓░░░░░
 - Work only inside the current folder. Never run anything that installs, sends, posts, buys or deletes.
 
 The writing, if they gave it: $ARGUMENTS
-If `brain/voice.md` is missing, ask them to paste two things they wrote (names out) and save the voice notes first.
+Say once, first time: "This one sharpens your voice before Content Partner starts writing for you, so the more you correct me here, the more you'll sound like you later." If `brain/voice.md` is missing, ask them to paste two things they wrote (names out) and save the voice notes first.
 1. Ask for the writing if you don't have it, and where it's going (text, email, post, page, spoken). Wait.
 2. Read `brain/voice.md` fresh. Mark what doesn't sound like them, quoting each line and saying why in a few words. Look for: long dashes, "it's not X, it's Y", lists of three over and over, every sentence the same length, stacked one-line drama, fake questions, "here's the thing", "game-changer", "unlock", "elevate", "navigate", "seamless", "in today's world", wrap-ups that repeat the point, praise nobody says out loud, words they'd never use.
 3. Rewrite it: their words, contractions, mixed sentence lengths, a little rough is fine. Keep every fact, price, date, name and promise exactly. Never add a story, number, review or result. If a claim has no source in `brain/`, mark [CHECK].
@@ -60,7 +60,7 @@ If `brain/voice.md` is missing, ask them to paste two things they wrote (names o
 5. Ask "What would you change?" Save what they teach you to `brain/voice.md`, showing old and new first.
 6. Batch rule: if they paste several pieces, no two may open or close the same way.
 Be honest if asked: this makes it sound like them. It doesn't promise to beat AI detectors, and it doesn't replace reading it yourself. If where it's going asks people to disclose AI help, say so.
-End: "Post a before and after in the community if it made you laugh. Next: type /lba:dump"
+End: "Post a before and after in the community if it made you laugh. Next: type /lba:customer"
 
 ## Stay on track
 - Before every draft, reread `brain/business.md`, `brain/voice.md` and, if there, `brain/customer.md`, `research/market.md`. Don't work from memory of the chat.

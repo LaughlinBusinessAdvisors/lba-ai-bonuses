@@ -63,7 +63,7 @@ If `brain/voice.md` is missing send them to /lba:teach; if `brain/customer.md` i
 7. Offer once: "Want to see it as a page?" If yes, build one self-contained HTML file in `content/`: their headline, the piece, how to reach them as [FILL IN], plain readable design, works on a phone, no outside scripts, images, trackers or forms, no invented reviews. Tell them the file name to double-click. It's a draft on their computer and isn't online.
 8. Score the piece out loud: every claim came from them (yes or no), sounds like them (yes or no), one clear next step (yes or no). Fix any no.
 
-End: "CONTENT PARTNER DONE. Come back with /lba:write any time. Next: type /lba:human"
+End: "CONTENT PARTNER DONE. Come back with /lba:write any time. Next: type /lba:dump"
 
 ## If something goes wrong
 - Pop-up refused: "No problem, nothing saved. Say 'try again' and choose yes, or copy this yourself," and show the text.

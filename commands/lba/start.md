@@ -52,8 +52,8 @@ Otherwise show:
 ```
 ```
   1  🧠 Business Brain      teach · prove · build
-  2  ✍️  Content Partner     customer · research · write
-  3  🗣️  Sounds Like Me      human
+  2  🗣️  Sounds Like Me      human
+  3  ✍️  Content Partner     customer · research · write
   4  🗂️  Organize My Brain   dump · organize
 ```
 Say, in this spirit:
@@ -64,7 +64,7 @@ For years I was the guy who said "just give me one more hour." All day in my bus
 
 So I built you some help I wish I'd had.
 
-**Business Brain goes first, because the other two borrow from it.** Five questions, then your guardrails. Answer like we're in the truck between jobs. There's no grade.
+**Business Brain goes first, because the others borrow from it.** Five questions, then your guardrails. Answer like we're in the truck between jobs. There's no grade.
 
 It saves as you go, so if the phone rings (it will), come back and I'll pick up where you left off.
 

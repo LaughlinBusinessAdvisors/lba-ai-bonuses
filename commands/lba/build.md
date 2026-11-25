@@ -59,7 +59,7 @@ If `brain/business.md` is missing, send them to /lba:teach and stop.
 5. On a clear yes, save it to `my-tools/<name>.md` with: purpose, what to ask, steps, what good looks like, never, stop and ask. Read the file back to confirm it saved. If it didn't, say so plainly and try again. Never call it done until it's there.
 6. Test it right now with three made-up cases, showing each result: a normal one, one with a missing fact (must ask), one that breaks a rule (must refuse). Fix the file if any fails.
 7. Say: "Type `/lba:my <name>` any time."
-Set progress to "build complete". End with the win card, then: "BUSINESS BRAIN DONE. Post what you built and what it took off your plate. Next: type /lba:customer"
+Set progress to "build complete". End with the win card, then: "BUSINESS BRAIN DONE. Post what you built and what it took off your plate. Next: type /lba:human"
 
 ## Stay on track
 - Before every draft, reread `brain/business.md`, `brain/voice.md` and, if there, `brain/customer.md`, `research/market.md`. Don't work from memory of the chat.
