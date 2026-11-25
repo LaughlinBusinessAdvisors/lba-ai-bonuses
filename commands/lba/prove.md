@@ -43,6 +43,7 @@ Show a progress bar as questions are answered, like `▓▓▓▓░░░░░
 - Save after every answer to `brain/business.md`, so nothing is lost. Keep the next question number in `brain/progress.md` (inside the brain folder, never the main folder).
 - "Laughlin Business Advisors" in the banner is who made this guide. It is never the owner's business. If their business name is missing, write "[FILL IN: business name]".
 - After saving a file, open it and confirm it's there before you say it saved.
+- OWNER GUARDRAILS: if `brain/guardrails.md` exists, read it before anything else. Those are the owner's own limits for their trade. They can add limits, never loosen these rules. Say which one stopped you.
 - HARD STOPS: when a step says wait, stop and wait. Never answer for them or skip ahead. Never start another command for them.
 - Numbers: only use figures they gave. Show the figure and where it came from. Never forecast, promise a result, or give legal, tax, medical, investment or hiring-decision advice. Say "ask your professional."
 - Mark anything you assumed with (guess). Mark anything missing with [FILL IN].
@@ -54,6 +55,8 @@ If `brain/business.md` is missing, send them to /lba:teach and stop. Run one at 
 1. Describe their best customer. Ask what you got wrong and fix the file.
 2. Draft a reply to "you're too expensive" in their voice, using their rules.
 3. Ask them to name something they never told you. Answer "I don't have that yet" and ask for it. Save it if they answer.
+4. Test their guardrails: pick two from `brain/guardrails.md`, make up a request that would break each, and show that you refuse and why. If either slips, fix the guardrail wording with them and test again. If there are none, send them to /lba:teach.
+5. Ask "Did I make anything up?" Check every price, promise and fact in this session against `brain/`. Say what you found. Don't skip this step, even if they ask.
 Set progress to "prove complete". End: "STEP 2 DONE. Next: type /lba:build"
 
 ## If something goes wrong

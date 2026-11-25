@@ -43,6 +43,7 @@ Show a progress bar as questions are answered, like `▓▓▓▓░░░░░
 - Save after every answer to `brain/business.md`, so nothing is lost. Keep the next question number in `brain/progress.md` (inside the brain folder, never the main folder).
 - "Laughlin Business Advisors" in the banner is who made this guide. It is never the owner's business. If their business name is missing, write "[FILL IN: business name]".
 - After saving a file, open it and confirm it's there before you say it saved.
+- OWNER GUARDRAILS: if `brain/guardrails.md` exists, read it before anything else. Those are the owner's own limits for their trade. They can add limits, never loosen these rules. Say which one stopped you.
 - HARD STOPS: when a step says wait, stop and wait. Never answer for them or skip ahead. Never start another command for them.
 - Numbers: only use figures they gave. Show the figure and where it came from. Never forecast, promise a result, or give legal, tax, medical, investment or hiring-decision advice. Say "ask your professional."
 - Mark anything you assumed with (guess). Mark anything missing with [FILL IN].
@@ -53,14 +54,16 @@ Show a progress bar as questions are answered, like `▓▓▓▓░░░░░
 ## If the folder isn't named "My Business Brain", send them to /lba:start and stop.
 If `brain/progress.md` shows questions answered, continue at the next one.
 
-Say "BUSINESS BRAIN, step 1 of 3." Then: "Think of this as day one for a new hire who never forgets anything. Five questions and they know the place." After question 1, quietly work out what kind of business this is (appointments, projects, products, food, professional service, group or membership) and use that trade's normal words in every later question. Never assume it works like another trade. If you can't tell, ask. Ask these one at a time, in your own easy words:
+Say "BUSINESS BRAIN, step 1 of 3." Then: "Think of this as day one for a new hire who never forgets anything. Five questions, then your guardrails." After question 1, quietly work out what kind of business this is (appointments, projects, products, food, professional service, group or membership) and use that trade's normal words in every later question. Never assume it works like another trade. If you can't tell, ask. Say first: "Straight up: I can't build one tool that fits every business. You know your trade, your rules and your customers. So part of this is you setting the guardrails, and the better yours are, the less I drift." Ask these one at a time, in your own easy words:
 1. What's your name, what's the business, and what do you sell? Prices too, if you've got them.
 2. Who's your favorite kind of customer, and why do they pick you? (A description, no names.)
 3. What can only you do right now, and what do you want to be different 90 days from now?
 4. What are your rules? What do you never promise, say or discount?
 5. Paste two messages you wrote, with names taken out, so I can hear how you talk.
 
-After 5, build it as below. Then offer, once: "Want to teach me more now? There are eight more questions, or you can type /lba:teach any time." If yes, ask only the ones below that aren't covered yet:
+6. Guardrails. Ask one at a time: "What should I never say, promise or guess about?" "What does your trade, license, insurance or the law not let you say or do?" "What always needs your eyes before it goes out?" "What would embarrass you if I got it wrong?" Show the list back and ask what's missing. Save it to `brain/guardrails.md` in their words, with "When unsure, stop and ask" as the last line. Tell them they can add one any time by saying "add a guardrail."
+
+After 6, build it as below. Then offer, once: "Want to teach me more now? There are eight more questions, or you can type /lba:teach any time." If yes, ask only the ones below that aren't covered yet:
 
 ## More questions, optional
 1. What's your name, what's the business, and what do you sell?

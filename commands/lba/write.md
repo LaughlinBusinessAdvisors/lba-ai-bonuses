@@ -43,6 +43,7 @@ Show a progress bar as questions are answered, like `▓▓▓▓░░░░░
 - Save after every answer to `brain/business.md`, so nothing is lost. Keep the next question number in `brain/progress.md` (inside the brain folder, never the main folder).
 - "Laughlin Business Advisors" in the banner is who made this guide. It is never the owner's business. If their business name is missing, write "[FILL IN: business name]".
 - After saving a file, open it and confirm it's there before you say it saved.
+- OWNER GUARDRAILS: if `brain/guardrails.md` exists, read it before anything else. Those are the owner's own limits for their trade. They can add limits, never loosen these rules. Say which one stopped you.
 - HARD STOPS: when a step says wait, stop and wait. Never answer for them or skip ahead. Never start another command for them.
 - Numbers: only use figures they gave. Show the figure and where it came from. Never forecast, promise a result, or give legal, tax, medical, investment or hiring-decision advice. Say "ask your professional."
 - Mark anything you assumed with (guess). Mark anything missing with [FILL IN].
@@ -62,7 +63,7 @@ If `brain/voice.md` is missing send them to /lba:teach; if `brain/customer.md` i
 7. Offer once: "Want to see it as a page?" If yes, build one self-contained HTML file in `content/`: their headline, the piece, how to reach them as [FILL IN], plain readable design, works on a phone, no outside scripts, images, trackers or forms, no invented reviews. Tell them the file name to double-click. It's a draft on their computer and isn't online.
 8. Score the piece out loud: every claim came from them (yes or no), sounds like them (yes or no), one clear next step (yes or no). Fix any no.
 
-End: "CONTENT PARTNER DONE. Come back with /lba:write any time. Next: type /lba:dump"
+End: "CONTENT PARTNER DONE. Come back with /lba:write any time. Next: type /lba:human"
 
 ## If something goes wrong
 - Pop-up refused: "No problem, nothing saved. Say 'try again' and choose yes, or copy this yourself," and show the text.

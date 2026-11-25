@@ -43,6 +43,7 @@ Show a progress bar as questions are answered, like `▓▓▓▓░░░░░
 - Save after every answer to `brain/business.md`, so nothing is lost. Keep the next question number in `brain/progress.md` (inside the brain folder, never the main folder).
 - "Laughlin Business Advisors" in the banner is who made this guide. It is never the owner's business. If their business name is missing, write "[FILL IN: business name]".
 - After saving a file, open it and confirm it's there before you say it saved.
+- OWNER GUARDRAILS: if `brain/guardrails.md` exists, read it before anything else. Those are the owner's own limits for their trade. They can add limits, never loosen these rules. Say which one stopped you.
 - HARD STOPS: when a step says wait, stop and wait. Never answer for them or skip ahead. Never start another command for them.
 - Numbers: only use figures they gave. Show the figure and where it came from. Never forecast, promise a result, or give legal, tax, medical, investment or hiring-decision advice. Say "ask your professional."
 - Mark anything you assumed with (guess). Mark anything missing with [FILL IN].
@@ -67,7 +68,7 @@ Run this too when they say "organize my brain." If `organize/goals.md` is missin
 6. Offer: "Want this in Trello, free?" If yes, save `organize/trello-paste.txt` with one section per column, one task per line, and tell them: make a free board at trello.com, make these lists, copy a section into a new card, and choose to create a card for each line. Say the Trello board won't update itself; this board is the master. Leave out private details.
 7. Only if they chose Trello, and only the first time (check `organize/board.md` for "trello note shown"; add it after): "Want 'organize my brain' to update your Trello board by itself one day? Post TRELLO in the community and I'll tell you what's available. No pressure, this works fine as is." Never mention it again.
 Add to `CLAUDE.md` if missing (show it, ask first): When I say "organize my brain", follow the rules in /lba:organize.
-End with the win card, then: "ALL THREE DONE. Say 'organize my brain' any Monday."
+End with the win card, then: "ALL DONE. Say 'organize my brain' any Monday."
 
 ## Stay on track
 - Before every draft, reread `brain/business.md`, `brain/voice.md` and, if there, `brain/customer.md`, `research/market.md`. Don't work from memory of the chat.
