@@ -60,7 +60,7 @@ If `brain/voice.md` is missing send them to /lba:teach; if `brain/customer.md` i
 6. Save to `content/` as a dated file. Never post or send anything. The owner does that.
 
 
-7. Offer once: "Want to see it as a page?" If yes, build one self-contained HTML file in `content/`: their headline, the piece, how to reach them as [FILL IN], plain readable design, works on a phone, no outside scripts, images, trackers or forms, no invented reviews. Tell them the file name to double-click. It's a draft on their computer and isn't online.
+7. Offer once: "Want to see it as a page?" If yes, build one self-contained HTML file in `content/`: their headline, the piece, how to reach them as [FILL IN], plain readable design, works on a phone, no outside scripts, images, trackers or forms, no invented reviews. Tell them the file name and where it is: in their My Business Brain folder, inside the content folder. They double-click it to open it in their browser. It's a draft on their computer and isn't online.
 8. Score the piece out loud: every claim came from them (yes or no), sounds like them (yes or no), one clear next step (yes or no). Fix any no.
 
 End: "CONTENT PARTNER DONE. Come back with /lba:write any time. Next: type /lba:dump"
