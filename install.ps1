@@ -21,12 +21,25 @@ foreach ($c in "start","teach","prove","build","customer","research","write","hu
     return
   }
 }
+# Make sure Windows can find Claude Code (Anthropic's installer asks owners to edit PATH by hand).
+$bin = Join-Path $HOME ".local\bin"
+$userPath = [Environment]::GetEnvironmentVariable("Path", "User")
+if (Test-Path (Join-Path $bin "claude.exe")) {
+  if (-not (($userPath -split ";") -contains $bin)) {
+    $newPath = if ([string]::IsNullOrEmpty($userPath)) { $bin } else { "$userPath;$bin" }
+    [Environment]::SetEnvironmentVariable("Path", $newPath, "User")
+    Write-Host "Fixed: Windows can now find Claude Code."
+  }
+  if (-not (($env:Path -split ";") -contains $bin)) { $env:Path = "$env:Path;$bin" }
+} elseif (-not (Get-Command claude -ErrorAction SilentlyContinue)) {
+  Write-Host "Heads up: Claude Code isn't installed yet. Do step 2 in the lesson, then paste this line again."
+}
 Write-Host ""
 Write-Host "   LBA"
 Write-Host ""
 Write-Host "Your AI Bonuses are installed."
 Write-Host ""
-Write-Host "Next, type these one at a time:"
+Write-Host "Close this window and open a fresh PowerShell window. Then type these one at a time:"
 Write-Host "  cd `"$brain`""
 Write-Host "  claude"
 Write-Host "  /lba:start"
