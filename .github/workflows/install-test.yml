@@ -7,11 +7,15 @@ jobs:
   windows:
     runs-on: windows-latest
     steps:
+      - name: Install Claude Code the way Anthropic's docs say
+        shell: powershell
+        run: |
+          irm https://claude.ai/install.ps1 | iex
       - name: Install bonuses exactly like an owner (Windows PowerShell 5.1)
         shell: powershell
         run: |
-          Start-Sleep -Seconds 30
-          irm https://raw.githubusercontent.com/LaughlinBusinessAdvisors/lba-ai-bonuses/main/install.ps1 | iex
+          Write-Host "Testing commit $env:GITHUB_SHA"
+          irm https://raw.githubusercontent.com/LaughlinBusinessAdvisors/lba-ai-bonuses/$env:GITHUB_SHA/install.ps1 | iex
       - name: Check files, folder and safety locks
         shell: powershell
         run: |
@@ -27,16 +31,12 @@ jobs:
           Select-String -Path (Join-Path $d "start.md") -Pattern "on Windows" | Out-Null
       - name: Run installer a second time (re-install must not break)
         shell: powershell
-        run: irm https://raw.githubusercontent.com/LaughlinBusinessAdvisors/lba-ai-bonuses/main/install.ps1 | iex
-      - name: Install Claude Code the way Anthropic's docs say
-        shell: powershell
-        run: |
-          irm https://claude.ai/install.ps1 | iex
+        run: irm https://raw.githubusercontent.com/LaughlinBusinessAdvisors/lba-ai-bonuses/$env:GITHUB_SHA/install.ps1 | iex
       - name: Fresh window finds claude
         shell: powershell
         run: |
-          $env:Path = [Environment]::GetEnvironmentVariable("Path","User") + ";" + [Environment]::GetEnvironmentVariable("Path","Machine")
-          claude --version
+          $p = [Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [Environment]::GetEnvironmentVariable("Path","User")
+          powershell -NoProfile -Command "`$env:Path='$p'; claude --version"
   mac:
     runs-on: macos-latest
     steps:
