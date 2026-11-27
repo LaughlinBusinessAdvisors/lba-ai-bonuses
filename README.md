@@ -3,7 +3,7 @@ For members of Business Owner Workshops. Needs Claude Code and a paid Claude pla
 
 **Mac:** `curl -fsSL https://raw.githubusercontent.com/LaughlinBusinessAdvisors/lba-ai-bonuses/main/install.sh | bash`
 
-**Windows (PowerShell):** `irm https://raw.githubusercontent.com/LaughlinBusinessAdvisors/lba-ai-bonuses/main/install.ps1 | iex`
+**Windows (PowerShell):** `irm https://raw.githubusercontent.com/LaughlinBusinessAdvisors/lba-ai-bonuses/main/install.ps1 | iex` (Windows also needs Git for Windows before Claude Code will run. Windows is still in testing.)
 
 It adds twelve commands to Claude Code and makes a folder called My Business Brain. Your answers are saved on your computer and are processed by Claude under your own account. Leave out customer, employee and financial account information.
 
